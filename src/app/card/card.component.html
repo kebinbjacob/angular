@@ -1,0 +1,16 @@
+<div class="background">
+  <div class="container">
+    <div class="row">
+        <div class="col" *ngFor="let item of artform">
+            <div class="card" style="width: 18rem;">
+                <img src="../../assets/images/{{item.Image}}" class="card-img-top" alt="..." height="300" width="300">
+                <div class="card-body">
+                  <h5 class="card-title">{{item.name}}</h5>
+                  <p class="card-text">{{item.desc}}</p>
+                  <a href="#" class="btn btn-primary">see More</a>
+                </div>
+              </div>
+        </div>
+    </div>
+ </div>
+</div>
